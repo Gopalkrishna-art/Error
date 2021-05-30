@@ -69,6 +69,7 @@ justify-content: center;
 align-items: flex-end;
 margin-top: 250px;
 color: grey;
+margin-left: -147px;
 }
 @media only screen and (max-width: 740px) {
 .container{
@@ -76,16 +77,26 @@ color: grey;
 }
 .left,header > h2{
   margin-left: 60px;
-  font-size: 40px;
+  font-size: 24px;
+}
+.left img{
+  width: 286px;
+  height: 238px;
 }
 .right{
   margin-left: 60px;
+  
 }
 .right h2{
-  font-size: 80px;
-line-height: 90px;
+  font-size: 48px;
+line-height: 71.09px;
+width: 358px;
 }
 .right p{
 margin-bottom: 100px;
+}
+.footer{
+margin-top: 150px;
+
 }
 }
